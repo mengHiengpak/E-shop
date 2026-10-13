@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "E-shop",
+    "slug": "e-shop",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/Layer 1.jpg",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/Layer 1.jpg",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./src/assets/Layer 1.jpg"
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-font",
+      "expo-status-bar",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./src/assets/Layer 1.jpg",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      "expo-image"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "7468c51f-10ca-478c-aac3-99bffc05c572"
+      }
+    }
+  }
+}
