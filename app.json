@@ -7,13 +7,18 @@
     "icon": "./src/assets/Layer 1.jpg",
     "userInterfaceStyle": "light",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": ".",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/Layer 1.jpg",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.pak_menghieng.eshop"
     },
     "web": {
       "favicon": "./src/assets/Layer 1.jpg"

@@ -23,6 +23,9 @@ web-build
 *.mobileprovision
 *.orig.*
 
+# Google Play service account key
+play-store-service-account.json
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
